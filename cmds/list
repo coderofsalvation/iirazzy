@@ -1,0 +1,12 @@
+#!/bin/bash 
+# 
+# vars:  $nick
+#        $nicks 
+#        $mesg
+#        $ircd
+#        $netw
+#        $chan
+#        $self
+#        $extra
+#
+[[ -n "$nicks" ]] && printf -- "%s: %s\n" "$nicks" "${commands[*]}" || printf -- "%s: %s\n" "$nick" "${commands[*]}"

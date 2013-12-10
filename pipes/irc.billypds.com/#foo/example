@@ -1,0 +1,9 @@
+nick="$1"; mesg="$2"; ircd="$3"; netw="$4"; chan="$5"; self="$6"
+
+read -r cmd extra <<< "$mesg"
+if [[ "$mesg" =~ .*\>.+ ]]; then
+    read -r nicks <<< "${extra#*>}"
+    read -r extra <<< "${extra%>*}"
+fi
+
+echo "[$(date) $chan] $nick $mesg $ircd $netw $self $nicks $extra" > /tmp/foo

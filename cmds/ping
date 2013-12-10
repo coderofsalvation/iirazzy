@@ -1,0 +1,2 @@
+#!/bin/bash
+[[ -n "$nicks" ]] && printf -- "%s: ping!\n" "$nicks" || printf -- "%s: pong!\n" "$nick"

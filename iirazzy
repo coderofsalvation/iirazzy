@@ -1,0 +1,95 @@
+#!/bin/bash 
+
+TMPFILE="/tmp/.iirazzy.lock"
+MYPATH="$(dirname "$(readlink -f "$0")" )"
+cd "$MYPATH"
+which ii &>/dev/null || { echo "ii not installed..halting" && exit 1; }
+source config.d/global.bash
+
+# some privacy please, thanks
+#chmod 700 "$IRCDIR"
+#chmod 600 "$IRCDIR"/*/ident &>/dev/null
+
+monitor() {
+    tailf -n1 "$IRCDIR/$network/$channel/out" | \
+        while read -r date time nick msg; do
+            # if msg is by the system ignore it
+            [[ "$nick" == '-!-' ]] && continue
+            # strip < and >. if msg is by ourself ignore it
+            nick="${nick:1:-1}"
+            [[ "$nick" == "$NICKNAME" ]] && continue
+
+            # if msg contains a url, transform to url command
+            [[ "$msg" =~ https?:// ]] && \
+                exec ./iicmd "$nick" "url ${msg#* }" "$IRCDIR" "$network" "$channel" "$NICKNAME" | fold -w 255 &
+            # if msg is a command, invoke iicmd
+            [[ "$msg" =~ ^! ]] && \
+                exec ./iicmd "$nick" "${msg#\!}" "$IRCDIR" "$network" "$channel" "$NICKNAME" | fold -w 255 &
+            # filter thru pipes 
+            pipes=(pipes/$network/$channel/*)
+            for pipe in ${pipes[@]}; do 
+              { exec $pipe "$nick" "${msg#\!}" "$IRCDIR" "$network" "$channel" "$NICKNAME" | fold -w 255; } &
+            done
+        done > "$IRCDIR/$network/$channel/in"
+}
+
+start(){
+  [[ -f $TMPFILE ]] && echo "ii(razzy) is running, run './iirazzy stop' or remove $TMPFILE manually" && exit 1
+  echo "starting iirazzy"; :>$TMPFILE; (startnetworks 2>&1 | while read line; do echo "[$(date) iirazzy] $line" >> iirazzy.log; done &)
+  echo "$! " >> $TMPFILE
+}
+
+status(){
+  find irc
+}
+
+startnetworks(){
+  for network in "${networks[@]}"; do
+      source config.d/$network
+      network=${network/.bash/}
+      while true; do
+          echo "starting network $network"
+          # cleanup
+          echo "cleaning up $IRCDIR/$network/in"
+          rm -f "$IRCDIR/$network/in"
+
+          # connect to network 
+          [[ ${#PASSWORD} != 0 ]] && PASSWORD="-k $PASSWORD"
+          ii -i "$IRCDIR" -s "$SERVER" -p "$PORT" -n "$NICK" -f "$FULLNAME" ${PASSWORD} &
+          pid="$!"; echo "$pid " >> $TMPFILE;
+
+          # wait for the connection
+          while ! test -p "$IRCDIR/$network/in"; do echo "waiting for connection"; sleep 1; done
+
+          # auth to services
+          echo "authentication indentity"
+          [[ -e "$IRCDIR/$network/ident" ]] && \
+              printf -- "/j nickserv identify %s\n" "$(<"$IRCDIR/$network/ident")" > "$IRCDIR/$network/in"
+          rm -f "$IRCDIR/$network/nickserv/out" # clean that up - ident passwd is in there
+
+          # join channels
+          for channel in ${CHANNELS[@]}; do
+              echo "joining channel $channel"
+              printf -- "/j %s\n" "$channel" > "$IRCDIR/$network/in"
+              [[ -e "$IRCDIR/$network/$channel/out" ]] || touch "$IRCDIR/$network/$channel/out"
+              monitor &
+              pids+=($!)
+          done          
+
+          # if connection is lost reconnect
+          wait "$pid"
+          kill "${pids[@]}"
+          [[ ! -f $TMPFILE ]] && break; 
+      done &
+  done 
+}
+
+stop(){
+  ps aux | grep iirazzy | grep -v stop | tr -s " " | cut -d' ' -f 2 | while read pid; do kill -9 $pid &>/dev/null; done; 
+  [[ -f $TMPFILE ]] && pid=$(cat $TMPFILE) && rm $TMPFILE 
+  echo "killing $pid"
+  kill -9 $pid &>/dev/null  || echo "could not stop iirazzy :("
+  echo "iirazzy stopped"
+}
+
+"$@" 
