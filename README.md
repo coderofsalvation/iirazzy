@@ -1,6 +1,8 @@
 IIRAZZY publishing daemon
 =========================
 
+Irc paparazzi notification network, modular notification/publishing daemon using IRC (ii) and pipes and rss.
+
 ### why ###
 
 An IRCdaemon is a welltested environment for broadcasting large volumes of data.
