@@ -3,6 +3,8 @@ IIRAZZY publishing daemon
 
 Bash II wrapperscript. Irc paparazzi notification network, modular notification/publishing daemon using IRC (ii) and pipes and rss.
 
+<img alt="" src="https://raw.github.com/coderofsalvation/iirazzy/master/iirazzy.jpg"/>
+
 ### why ###
 
 An IRCdaemon is a welltested environment for broadcasting large volumes of data.
