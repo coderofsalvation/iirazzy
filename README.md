@@ -1,7 +1,7 @@
 IIRAZZY publishing daemon
 =========================
 
-Irc paparazzi notification network, modular notification/publishing daemon using IRC (ii) and pipes and rss.
+Bash II wrapperscript. Irc paparazzi notification network, modular notification/publishing daemon using IRC (ii) and pipes and rss.
 
 ### why ###
 
@@ -37,7 +37,43 @@ or
   
     ./iirazzy stop
 
+### Serverrelated ###
+
+Optionally add user 'iirazzy' to your server, and place this script in `/etc/init.d/iirazzy`
+
+    #! /bin/bash
+
+    start(){
+      sudo -u iirazzy /opt/iirazzy/iirazzy start
+      sleep 1s; # settle before printing info
+      /opt/iirazzy/iirazzy status 
+      cat /opt/iirazzy/iirazzy.log
+    }
+
+    case "$1" in
+      start)
+        start
+        ;;
+      restart|reload|force-reload)
+        /opt/iirazzy/iirazzy stop
+        start
+        ;;
+      stop)
+        /opt/iirazzy/iirazzy stop
+        ;;
+      status)
+        /opt/iirazzy/iirazzy status
+        ;;
+      *)
+        echo "Usage: $0 start|stop" >&2
+        exit 3
+        ;;
+    esac
+
+do `chmod 755 /etc/init.d/iirazzy` and add it to your default services.
+That'll automatically restart stuff upon reload.
+
 ### Credits ###
 
-* ii 
-* iibot
+* [ii](http://tools.suckless.org/ii/)
+* [iibot](https://github.com/c00kiemon5ter/iibot)
