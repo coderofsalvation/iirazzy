@@ -1,0 +1,274 @@
+2013-12-10 15:48 *** Looking up your hostname
+2013-12-10 15:48 *** Couldn't look up your hostname
+2013-12-10 15:48 Welcome to the Internet Relay Network iirazzy
+2013-12-10 15:48 Your host is irc.billypds.com, running version beware1.6.2
+2013-12-10 15:48 This server was created Fri Dec 23 2011 at 13:52:10 GMT
+2013-12-10 15:48 irc.billypds.com beware1.6.2 dgikoswx biklmnoprstv
+2013-12-10 15:48 MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=10 MAXBANS=45 are supported by this server
+2013-12-10 15:48 NICKLEN=12 TOPICLEN=160 AWAYLEN=160 KICKLEN=160 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 are supported by this server
+2013-12-10 15:48 There are 6 users and 2 invisible on 1 servers
+2013-12-10 15:48 4 channels formed
+2013-12-10 15:48 I have 8 clients and 0 servers
+2013-12-10 15:48 Highest connection count: 10 (10 clients)
+2013-12-10 15:48 - irc.billypds.com Message of the day
+2013-12-10 15:48 - 2012-8-30 15:47
+2013-12-10 15:48 - .-. .-')                                              _ (`-.  _ .-') _    .-')    
+2013-12-10 15:48 - \  ( OO )                                            ( (OO  )( (  OO) )  ( OO ).  
+2013-12-10 15:48 -  ;-----.\   ,-.-')  ,--.      ,--.       ,--.   ,--._.`     \ \     .'_ (_)---\_) 
+2013-12-10 15:48 -  | .-.  |   |  |OO) |  |.-')  |  |.-')    \  `.'  /(__...--'' ,`'--..._)/    _ |  
+2013-12-10 15:48 -  | '-' /_)  |  |  \ |  | OO ) |  | OO ) .-')     /  |  /  | | |  |  \  '\  :` `.  
+2013-12-10 15:48 -  | .-. `.   |  |(_/ |  |`-' | |  |`-' |(OO  \   /   |  |_.' | |  |   ' | '..`''.) 
+2013-12-10 15:48 -  | |  \  | ,|  |_.'(|  '---.'(|  '---.' |   /  /\_  |  .___.' |  |   / :.-._)   \ 
+2013-12-10 15:48 -  | '--'  /(_|  |    |      |  |      |  `-./  /.__) |  |      |  '--'  /\       / 
+2013-12-10 15:48 -  `------'   `--'    `------'  `------'    `--'      `--'      `-------'  `-----'  
+2013-12-10 15:48 End of /MOTD command.
+2013-12-10 15:48 on 1 ca 1(4) ft 10(10) tr
+2013-12-10 15:48 = #foo iirazzy @leon
+2013-12-10 15:48 #foo End of /NAMES list.
+2013-12-10 15:48 = #bar @iirazzy
+2013-12-10 15:48 #bar End of /NAMES list.
+2013-12-10 17:00 *** Looking up your hostname
+2013-12-10 17:00 *** Couldn't look up your hostname
+2013-12-10 17:00 iirazzy Nickname is already in use
+2013-12-10 17:00 JOIN Register first.
+2013-12-10 17:00 JOIN Register first.
+2013-12-10 17:02 Closing Link: iirazzy[208.78.101.46] by irc.billypds.com (Ping Timeout)
+2013-12-10 17:02 *** Looking up your hostname
+2013-12-10 17:02 *** Found your hostname, cached
+2013-12-10 17:02 iirazzy Nickname is already in use
+2013-12-10 17:02 JOIN Register first.
+2013-12-10 17:02 JOIN Register first.
+2013-12-10 23:55 *** Looking up your hostname
+2013-12-10 23:55 *** Couldn't look up your hostname
+2013-12-10 23:55 Welcome to the Internet Relay Network billydev
+2013-12-10 23:55 Your host is irc.billypds.com, running version beware1.6.2
+2013-12-10 23:55 This server was created Fri Dec 23 2011 at 13:52:10 GMT
+2013-12-10 23:55 irc.billypds.com beware1.6.2 dgikoswx biklmnoprstv
+2013-12-10 23:55 MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=10 MAXBANS=45 are supported by this server
+2013-12-10 23:55 NICKLEN=12 TOPICLEN=160 AWAYLEN=160 KICKLEN=160 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 are supported by this server
+2013-12-10 23:55 There are 4 users and 2 invisible on 1 servers
+2013-12-10 23:55 5 channels formed
+2013-12-10 23:55 I have 6 clients and 0 servers
+2013-12-10 23:55 Highest connection count: 10 (10 clients)
+2013-12-10 23:55 - irc.billypds.com Message of the day
+2013-12-10 23:55 - 2012-8-30 15:47
+2013-12-10 23:55 - .-. .-')                                              _ (`-.  _ .-') _    .-')    
+2013-12-10 23:55 - \  ( OO )                                            ( (OO  )( (  OO) )  ( OO ).  
+2013-12-10 23:55 -  ;-----.\   ,-.-')  ,--.      ,--.       ,--.   ,--._.`     \ \     .'_ (_)---\_) 
+2013-12-10 23:55 -  | .-.  |   |  |OO) |  |.-')  |  |.-')    \  `.'  /(__...--'' ,`'--..._)/    _ |  
+2013-12-10 23:55 -  | '-' /_)  |  |  \ |  | OO ) |  | OO ) .-')     /  |  /  | | |  |  \  '\  :` `.  
+2013-12-10 23:55 -  | .-. `.   |  |(_/ |  |`-' | |  |`-' |(OO  \   /   |  |_.' | |  |   ' | '..`''.) 
+2013-12-10 23:55 -  | |  \  | ,|  |_.'(|  '---.'(|  '---.' |   /  /\_  |  .___.' |  |   / :.-._)   \ 
+2013-12-10 23:55 -  | '--'  /(_|  |    |      |  |      |  `-./  /.__) |  |      |  '--'  /\       / 
+2013-12-10 23:55 -  `------'   `--'    `------'  `------'    `--'      `--'      `-------'  `-----'  
+2013-12-10 23:55 End of /MOTD command.
+2013-12-10 23:55 on 1 ca 1(4) ft 10(10)
+2013-12-10 23:55 = #foo billydev iirazzy @leon
+2013-12-10 23:55 #foo End of /NAMES list.
+2013-12-10 23:55 = #bar billydev @iirazzy
+2013-12-10 23:55 #bar End of /NAMES list.
+2013-12-10 23:58 *** Looking up your hostname
+2013-12-10 23:58 *** Found your hostname, cached
+2013-12-10 23:58 Welcome to the Internet Relay Network billydev
+2013-12-10 23:58 Your host is irc.billypds.com, running version beware1.6.2
+2013-12-10 23:58 This server was created Fri Dec 23 2011 at 13:52:10 GMT
+2013-12-10 23:58 irc.billypds.com beware1.6.2 dgikoswx biklmnoprstv
+2013-12-10 23:58 MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=10 MAXBANS=45 are supported by this server
+2013-12-10 23:58 NICKLEN=12 TOPICLEN=160 AWAYLEN=160 KICKLEN=160 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 are supported by this server
+2013-12-10 23:58 There are 4 users and 2 invisible on 1 servers
+2013-12-10 23:58 5 channels formed
+2013-12-10 23:58 I have 6 clients and 0 servers
+2013-12-10 23:58 Highest connection count: 10 (10 clients)
+2013-12-10 23:58 - irc.billypds.com Message of the day
+2013-12-10 23:58 - 2012-8-30 15:47
+2013-12-10 23:58 - .-. .-')                                              _ (`-.  _ .-') _    .-')    
+2013-12-10 23:58 - \  ( OO )                                            ( (OO  )( (  OO) )  ( OO ).  
+2013-12-10 23:58 -  ;-----.\   ,-.-')  ,--.      ,--.       ,--.   ,--._.`     \ \     .'_ (_)---\_) 
+2013-12-10 23:58 -  | .-.  |   |  |OO) |  |.-')  |  |.-')    \  `.'  /(__...--'' ,`'--..._)/    _ |  
+2013-12-10 23:58 -  | '-' /_)  |  |  \ |  | OO ) |  | OO ) .-')     /  |  /  | | |  |  \  '\  :` `.  
+2013-12-10 23:58 -  | .-. `.   |  |(_/ |  |`-' | |  |`-' |(OO  \   /   |  |_.' | |  |   ' | '..`''.) 
+2013-12-10 23:58 -  | |  \  | ,|  |_.'(|  '---.'(|  '---.' |   /  /\_  |  .___.' |  |   / :.-._)   \ 
+2013-12-10 23:58 -  | '--'  /(_|  |    |      |  |      |  `-./  /.__) |  |      |  '--'  /\       / 
+2013-12-10 23:58 -  `------'   `--'    `------'  `------'    `--'      `--'      `-------'  `-----'  
+2013-12-10 23:58 End of /MOTD command.
+2013-12-10 23:58 on 1 ca 1(4) ft 9(10) tr
+2013-12-10 23:58 = #foo billydev iirazzy @leon
+2013-12-10 23:58 #foo End of /NAMES list.
+2013-12-10 23:58 = #bar billydev @iirazzy
+2013-12-10 23:58 #bar End of /NAMES list.
+2013-12-10 23:58 *** Looking up your hostname
+2013-12-10 23:58 *** Found your hostname, cached
+2013-12-10 23:58 Welcome to the Internet Relay Network billydev
+2013-12-10 23:58 Your host is irc.billypds.com, running version beware1.6.2
+2013-12-10 23:58 This server was created Fri Dec 23 2011 at 13:52:10 GMT
+2013-12-10 23:58 irc.billypds.com beware1.6.2 dgikoswx biklmnoprstv
+2013-12-10 23:58 MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=10 MAXBANS=45 are supported by this server
+2013-12-10 23:58 NICKLEN=12 TOPICLEN=160 AWAYLEN=160 KICKLEN=160 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 are supported by this server
+2013-12-10 23:58 There are 4 users and 2 invisible on 1 servers
+2013-12-10 23:58 5 channels formed
+2013-12-10 23:58 I have 6 clients and 0 servers
+2013-12-10 23:58 Highest connection count: 10 (10 clients)
+2013-12-10 23:58 - irc.billypds.com Message of the day
+2013-12-10 23:58 - 2012-8-30 15:47
+2013-12-10 23:58 - .-. .-')                                              _ (`-.  _ .-') _    .-')    
+2013-12-10 23:58 - \  ( OO )                                            ( (OO  )( (  OO) )  ( OO ).  
+2013-12-10 23:58 -  ;-----.\   ,-.-')  ,--.      ,--.       ,--.   ,--._.`     \ \     .'_ (_)---\_) 
+2013-12-10 23:58 -  | .-.  |   |  |OO) |  |.-')  |  |.-')    \  `.'  /(__...--'' ,`'--..._)/    _ |  
+2013-12-10 23:58 -  | '-' /_)  |  |  \ |  | OO ) |  | OO ) .-')     /  |  /  | | |  |  \  '\  :` `.  
+2013-12-10 23:58 -  | .-. `.   |  |(_/ |  |`-' | |  |`-' |(OO  \   /   |  |_.' | |  |   ' | '..`''.) 
+2013-12-10 23:58 -  | |  \  | ,|  |_.'(|  '---.'(|  '---.' |   /  /\_  |  .___.' |  |   / :.-._)   \ 
+2013-12-10 23:58 -  | '--'  /(_|  |    |      |  |      |  `-./  /.__) |  |      |  '--'  /\       / 
+2013-12-10 23:58 -  `------'   `--'    `------'  `------'    `--'      `--'      `-------'  `-----'  
+2013-12-10 23:58 End of /MOTD command.
+2013-12-10 23:58 on 1 ca 2(4) ft 9(10) tr
+2013-12-10 23:58 = #foo billydev iirazzy @leon
+2013-12-10 23:58 #foo End of /NAMES list.
+2013-12-10 23:58 = #bar billydev @iirazzy
+2013-12-10 23:58 #bar End of /NAMES list.
+2013-12-11 00:00 *** Looking up your hostname
+2013-12-11 00:00 *** Found your hostname, cached
+2013-12-11 00:00 Welcome to the Internet Relay Network billydev
+2013-12-11 00:00 Your host is irc.billypds.com, running version beware1.6.2
+2013-12-11 00:00 This server was created Fri Dec 23 2011 at 13:52:10 GMT
+2013-12-11 00:00 irc.billypds.com beware1.6.2 dgikoswx biklmnoprstv
+2013-12-11 00:00 MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=10 MAXBANS=45 are supported by this server
+2013-12-11 00:00 NICKLEN=12 TOPICLEN=160 AWAYLEN=160 KICKLEN=160 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 are supported by this server
+2013-12-11 00:00 There are 4 users and 2 invisible on 1 servers
+2013-12-11 00:00 5 channels formed
+2013-12-11 00:00 I have 6 clients and 0 servers
+2013-12-11 00:00 Highest connection count: 10 (10 clients)
+2013-12-11 00:00 - irc.billypds.com Message of the day
+2013-12-11 00:00 - 2012-8-30 15:47
+2013-12-11 00:00 - .-. .-')                                              _ (`-.  _ .-') _    .-')    
+2013-12-11 00:00 - \  ( OO )                                            ( (OO  )( (  OO) )  ( OO ).  
+2013-12-11 00:00 -  ;-----.\   ,-.-')  ,--.      ,--.       ,--.   ,--._.`     \ \     .'_ (_)---\_) 
+2013-12-11 00:00 -  | .-.  |   |  |OO) |  |.-')  |  |.-')    \  `.'  /(__...--'' ,`'--..._)/    _ |  
+2013-12-11 00:00 -  | '-' /_)  |  |  \ |  | OO ) |  | OO ) .-')     /  |  /  | | |  |  \  '\  :` `.  
+2013-12-11 00:00 -  | .-. `.   |  |(_/ |  |`-' | |  |`-' |(OO  \   /   |  |_.' | |  |   ' | '..`''.) 
+2013-12-11 00:00 -  | |  \  | ,|  |_.'(|  '---.'(|  '---.' |   /  /\_  |  .___.' |  |   / :.-._)   \ 
+2013-12-11 00:00 -  | '--'  /(_|  |    |      |  |      |  `-./  /.__) |  |      |  '--'  /\       / 
+2013-12-11 00:00 -  `------'   `--'    `------'  `------'    `--'      `--'      `-------'  `-----'  
+2013-12-11 00:00 End of /MOTD command.
+2013-12-11 00:00 on 1 ca 1(4) ft 10(10) tr
+2013-12-11 00:00 = #foo billydev iirazzy @leon
+2013-12-11 00:00 #foo End of /NAMES list.
+2013-12-11 00:00 = #bar billydev @iirazzy
+2013-12-11 00:00 #bar End of /NAMES list.
+2013-12-11 00:13 *** Looking up your hostname
+2013-12-11 00:13 *** Couldn't look up your hostname
+2013-12-11 00:13 Welcome to the Internet Relay Network billydev
+2013-12-11 00:13 Your host is irc.billypds.com, running version beware1.6.2
+2013-12-11 00:13 This server was created Fri Dec 23 2011 at 13:52:10 GMT
+2013-12-11 00:13 irc.billypds.com beware1.6.2 dgikoswx biklmnoprstv
+2013-12-11 00:13 MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=10 MAXBANS=45 are supported by this server
+2013-12-11 00:13 NICKLEN=12 TOPICLEN=160 AWAYLEN=160 KICKLEN=160 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 are supported by this server
+2013-12-11 00:13 There are 4 users and 2 invisible on 1 servers
+2013-12-11 00:13 5 channels formed
+2013-12-11 00:13 I have 6 clients and 0 servers
+2013-12-11 00:13 Highest connection count: 10 (10 clients)
+2013-12-11 00:13 - irc.billypds.com Message of the day
+2013-12-11 00:13 - 2012-8-30 15:47
+2013-12-11 00:13 - .-. .-')                                              _ (`-.  _ .-') _    .-')    
+2013-12-11 00:13 - \  ( OO )                                            ( (OO  )( (  OO) )  ( OO ).  
+2013-12-11 00:13 -  ;-----.\   ,-.-')  ,--.      ,--.       ,--.   ,--._.`     \ \     .'_ (_)---\_) 
+2013-12-11 00:13 -  | .-.  |   |  |OO) |  |.-')  |  |.-')    \  `.'  /(__...--'' ,`'--..._)/    _ |  
+2013-12-11 00:13 -  | '-' /_)  |  |  \ |  | OO ) |  | OO ) .-')     /  |  /  | | |  |  \  '\  :` `.  
+2013-12-11 00:13 -  | .-. `.   |  |(_/ |  |`-' | |  |`-' |(OO  \   /   |  |_.' | |  |   ' | '..`''.) 
+2013-12-11 00:13 -  | |  \  | ,|  |_.'(|  '---.'(|  '---.' |   /  /\_  |  .___.' |  |   / :.-._)   \ 
+2013-12-11 00:13 -  | '--'  /(_|  |    |      |  |      |  `-./  /.__) |  |      |  '--'  /\       / 
+2013-12-11 00:13 -  `------'   `--'    `------'  `------'    `--'      `--'      `-------'  `-----'  
+2013-12-11 00:13 End of /MOTD command.
+2013-12-11 00:13 on 1 ca 1(4) ft 10(10) tr
+2013-12-11 00:13 = #foo billydev iirazzy @leon
+2013-12-11 00:13 #foo End of /NAMES list.
+2013-12-11 00:13 = #bar billydev @iirazzy
+2013-12-11 00:13 #bar End of /NAMES list.
+2013-12-11 00:14 *** Looking up your hostname
+2013-12-11 00:14 *** Found your hostname, cached
+2013-12-11 00:14 Welcome to the Internet Relay Network billyrazzyde
+2013-12-11 00:14 Your host is irc.billypds.com, running version beware1.6.2
+2013-12-11 00:14 This server was created Fri Dec 23 2011 at 13:52:10 GMT
+2013-12-11 00:14 irc.billypds.com beware1.6.2 dgikoswx biklmnoprstv
+2013-12-11 00:14 MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=10 MAXBANS=45 are supported by this server
+2013-12-11 00:14 NICKLEN=12 TOPICLEN=160 AWAYLEN=160 KICKLEN=160 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 are supported by this server
+2013-12-11 00:14 There are 4 users and 2 invisible on 1 servers
+2013-12-11 00:14 5 channels formed
+2013-12-11 00:14 I have 6 clients and 0 servers
+2013-12-11 00:14 Highest connection count: 10 (10 clients)
+2013-12-11 00:14 - irc.billypds.com Message of the day
+2013-12-11 00:14 - 2012-8-30 15:47
+2013-12-11 00:14 - .-. .-')                                              _ (`-.  _ .-') _    .-')    
+2013-12-11 00:14 - \  ( OO )                                            ( (OO  )( (  OO) )  ( OO ).  
+2013-12-11 00:14 -  ;-----.\   ,-.-')  ,--.      ,--.       ,--.   ,--._.`     \ \     .'_ (_)---\_) 
+2013-12-11 00:14 -  | .-.  |   |  |OO) |  |.-')  |  |.-')    \  `.'  /(__...--'' ,`'--..._)/    _ |  
+2013-12-11 00:14 -  | '-' /_)  |  |  \ |  | OO ) |  | OO ) .-')     /  |  /  | | |  |  \  '\  :` `.  
+2013-12-11 00:14 -  | .-. `.   |  |(_/ |  |`-' | |  |`-' |(OO  \   /   |  |_.' | |  |   ' | '..`''.) 
+2013-12-11 00:14 -  | |  \  | ,|  |_.'(|  '---.'(|  '---.' |   /  /\_  |  .___.' |  |   / :.-._)   \ 
+2013-12-11 00:14 -  | '--'  /(_|  |    |      |  |      |  `-./  /.__) |  |      |  '--'  /\       / 
+2013-12-11 00:14 -  `------'   `--'    `------'  `------'    `--'      `--'      `-------'  `-----'  
+2013-12-11 00:14 End of /MOTD command.
+2013-12-11 00:14 on 1 ca 1(4) ft 10(10) tr
+2013-12-11 00:15 = #foo billyrazzyde iirazzy @leon
+2013-12-11 00:15 #foo End of /NAMES list.
+2013-12-11 00:15 = #bar billyrazzyde @iirazzy
+2013-12-11 00:15 #bar End of /NAMES list.
+2013-12-11 00:16 *** Looking up your hostname
+2013-12-11 00:16 *** Found your hostname, cached
+2013-12-11 00:16 Welcome to the Internet Relay Network billyrazzy[d
+2013-12-11 00:16 Your host is irc.billypds.com, running version beware1.6.2
+2013-12-11 00:16 This server was created Fri Dec 23 2011 at 13:52:10 GMT
+2013-12-11 00:16 irc.billypds.com beware1.6.2 dgikoswx biklmnoprstv
+2013-12-11 00:16 MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=10 MAXBANS=45 are supported by this server
+2013-12-11 00:16 NICKLEN=12 TOPICLEN=160 AWAYLEN=160 KICKLEN=160 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 are supported by this server
+2013-12-11 00:16 There are 4 users and 2 invisible on 1 servers
+2013-12-11 00:16 5 channels formed
+2013-12-11 00:16 I have 6 clients and 0 servers
+2013-12-11 00:16 Highest connection count: 10 (10 clients)
+2013-12-11 00:16 - irc.billypds.com Message of the day
+2013-12-11 00:16 - 2012-8-30 15:47
+2013-12-11 00:16 - .-. .-')                                              _ (`-.  _ .-') _    .-')    
+2013-12-11 00:16 - \  ( OO )                                            ( (OO  )( (  OO) )  ( OO ).  
+2013-12-11 00:16 -  ;-----.\   ,-.-')  ,--.      ,--.       ,--.   ,--._.`     \ \     .'_ (_)---\_) 
+2013-12-11 00:16 -  | .-.  |   |  |OO) |  |.-')  |  |.-')    \  `.'  /(__...--'' ,`'--..._)/    _ |  
+2013-12-11 00:16 -  | '-' /_)  |  |  \ |  | OO ) |  | OO ) .-')     /  |  /  | | |  |  \  '\  :` `.  
+2013-12-11 00:16 -  | .-. `.   |  |(_/ |  |`-' | |  |`-' |(OO  \   /   |  |_.' | |  |   ' | '..`''.) 
+2013-12-11 00:16 -  | |  \  | ,|  |_.'(|  '---.'(|  '---.' |   /  /\_  |  .___.' |  |   / :.-._)   \ 
+2013-12-11 00:16 -  | '--'  /(_|  |    |      |  |      |  `-./  /.__) |  |      |  '--'  /\       / 
+2013-12-11 00:16 -  `------'   `--'    `------'  `------'    `--'      `--'      `-------'  `-----'  
+2013-12-11 00:16 End of /MOTD command.
+2013-12-11 00:16 on 1 ca 1(4) ft 10(10) tr
+2013-12-11 00:16 = #foo billyrazzy[d iirazzy @leon
+2013-12-11 00:16 #foo End of /NAMES list.
+2013-12-11 00:16 = #bar billyrazzy[d @iirazzy
+2013-12-11 00:16 #bar End of /NAMES list.
+2013-12-11 00:17 *** Looking up your hostname
+2013-12-11 00:17 *** Found your hostname, cached
+2013-12-11 00:17 Welcome to the Internet Relay Network billyrazzy|d
+2013-12-11 00:17 Your host is irc.billypds.com, running version beware1.6.2
+2013-12-11 00:17 This server was created Fri Dec 23 2011 at 13:52:10 GMT
+2013-12-11 00:17 irc.billypds.com beware1.6.2 dgikoswx biklmnoprstv
+2013-12-11 00:17 MAP SILENCE=15 WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE MODES=6 MAXCHANNELS=10 MAXBANS=45 are supported by this server
+2013-12-11 00:17 NICKLEN=12 TOPICLEN=160 AWAYLEN=160 KICKLEN=160 CHANTYPES=#& PREFIX=(ov)@+ CHANMODES=b,k,l,rimnpst CASEMAPPING=rfc1459 are supported by this server
+2013-12-11 00:17 There are 4 users and 2 invisible on 1 servers
+2013-12-11 00:17 5 channels formed
+2013-12-11 00:17 I have 6 clients and 0 servers
+2013-12-11 00:17 Highest connection count: 10 (10 clients)
+2013-12-11 00:17 - irc.billypds.com Message of the day
+2013-12-11 00:17 - 2012-8-30 15:47
+2013-12-11 00:17 - .-. .-')                                              _ (`-.  _ .-') _    .-')    
+2013-12-11 00:17 - \  ( OO )                                            ( (OO  )( (  OO) )  ( OO ).  
+2013-12-11 00:17 -  ;-----.\   ,-.-')  ,--.      ,--.       ,--.   ,--._.`     \ \     .'_ (_)---\_) 
+2013-12-11 00:17 -  | .-.  |   |  |OO) |  |.-')  |  |.-')    \  `.'  /(__...--'' ,`'--..._)/    _ |  
+2013-12-11 00:17 -  | '-' /_)  |  |  \ |  | OO ) |  | OO ) .-')     /  |  /  | | |  |  \  '\  :` `.  
+2013-12-11 00:17 -  | .-. `.   |  |(_/ |  |`-' | |  |`-' |(OO  \   /   |  |_.' | |  |   ' | '..`''.) 
+2013-12-11 00:17 -  | |  \  | ,|  |_.'(|  '---.'(|  '---.' |   /  /\_  |  .___.' |  |   / :.-._)   \ 
+2013-12-11 00:17 -  | '--'  /(_|  |    |      |  |      |  `-./  /.__) |  |      |  '--'  /\       / 
+2013-12-11 00:17 -  `------'   `--'    `------'  `------'    `--'      `--'      `-------'  `-----'  
+2013-12-11 00:17 End of /MOTD command.
+2013-12-11 00:17 on 1 ca 1(4) ft 10(10) tr
+2013-12-11 00:17 = #foo billyrazzy|d iirazzy @leon
+2013-12-11 00:17 #foo End of /NAMES list.
+2013-12-11 00:17 = #bar billyrazzy|d @iirazzy
+2013-12-11 00:17 #bar End of /NAMES list.
+2013-12-11 00:19 -!- iirazzy(~iirazzy@31.222.167.224) has quit "Read error: EOF from client"
+2013-12-11 00:19 -!- iirazzy|s(~iirazzy_s@31.222.167.224) has quit "Read error: EOF from client"
