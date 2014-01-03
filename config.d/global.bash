@@ -1,3 +1,3 @@
 # include other networkfiles here
-networks=("irc.billypds.com.bash")
+networks=("irc.freenode.net.bash")
 IRCDIR="$(pwd)/irc"

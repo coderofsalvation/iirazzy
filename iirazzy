@@ -53,6 +53,7 @@ startnetworks(){
 
             # connect to network 
             [[ ${#PASSWORD} != 0 ]] && PASSWORD="-k $PASSWORD"
+            echo ii -i "$IRCDIR" -s "$NETWORK" -p "$PORT" -n "$NICK" -f "$FULLNAME" ${PASSWORD} 
             ii -i "$IRCDIR" -s "$NETWORK" -p "$PORT" -n "$NICK" -f "$FULLNAME" ${PASSWORD} &
             pid="$!"; echo "$pid " >> $TMPFILE;
 

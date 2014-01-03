@@ -1,6 +1,6 @@
-SERVER="irc.freenode.net"
+NETWORK="brooks.freenode.net"
 PORT="6667"
 NICK="iirazzy"
-FULLNAME="Irc paparazzi notification network"
+FULLNAME="iirazzy irc paparazzi"
 PASSWORD="" 
-CHANNELS=("#foo" "#bar")
+CHANNELS=("#scrapezilla")
