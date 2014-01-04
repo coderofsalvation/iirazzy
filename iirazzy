@@ -12,7 +12,7 @@ monitor() {
             # if msg is by the system ignore it
             [[ "$nick" == '-!-' ]] && continue
             # strip < and >. if msg is by ourself ignore it
-            nick="${nick:1:-1}"
+            nick="${nick//[<>]}"
             [[ "$nick" == "$NICKNAME" ]] && continue
 
             # if msg contains a url, transform to url command
